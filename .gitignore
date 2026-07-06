@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+.pub-cache/
+.pub/
+
+# Environment & Secrets
+.env
+*.env.local
+firebase-credentials.json
+google-services-backup.json
+
+# Build artifacts
+build/
+.dart_tool/
+.flutter-plugins-dependencies
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+
+# Flutter/Dart
+**/doc/api/
+**/ios/Flutter/.last_build_id
+/coverage/
+app.*.symbols
+app.*.map.json
+
+# Android build
+/frontend/android/app/debug
+/frontend/android/app/profile
+/frontend/android/app/release
+
+# Debug artifacts
+project_tree*.txt
+project_structure*.txt
+
+# Package locks (regenerated on install)
+package-lock.json
+pubspec.lock
